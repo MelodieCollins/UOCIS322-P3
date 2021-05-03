@@ -6,6 +6,8 @@ The vocabulary word list is fixed for one invocation of the server, so multiple 
 
 I copied flask_vocab.py into flask_edited.py where I did all of my editing. Hence Dockerfile uses flask_edited.py which is also linked to vocab_edited.html.
 
+Once the target number of words found is reached, the page automatically refreshes after 3 seconds to restart the game and rescramble the jumble of letters.
+
 ## Author
 
 Melodie Collins, mcolli11@uoregon.edu
